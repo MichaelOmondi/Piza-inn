@@ -7,6 +7,7 @@
     margin-top: 0px;
     width: 150px;
     height: 150px;
+
 }
 #img2 {
     float: right;
@@ -59,7 +60,7 @@ p {
     font-family: sans-serif;
 }
 .pg2 {
-    font-family: pacifico;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 45px;
 }
 #p3 {
@@ -93,21 +94,21 @@ p {
     margin-left: 88px;
     background-color:yellow;
     color:white;
-    font-family: Pacifico;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #delivery {
     margin-left: 860px;
     background-color:yellow;
-    color:white;
-    font-family: Pacifico;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
 }
 #SBMT {
     margin-top: -26px;
     margin-left: 892px;
-    background-color:yellow;
+    background-color:red;
     color:white;
-    font-family: Pacifico;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: none;
 }
 
@@ -117,7 +118,7 @@ p {
 }
 .pg3 {
     margin-left:260px;
-    font-family: Pacifico;
+    font-family: serif;
     font-size:25px;
     color:red;
 }
