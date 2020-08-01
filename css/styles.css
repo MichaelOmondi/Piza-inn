@@ -1,0 +1,160 @@
+.jumbotron {
+    background-size: cover;
+    background-color: #020202e0;
+}
+#img1 {
+    float: left;
+    margin-top: 0px;
+    width: 150px;
+    height: 150px;
+}
+#img2 {
+    float: right;
+    margin-top: 0px;
+    width: 150px;
+    height: 150px;
+}
+#navbar {
+    position: fixed;
+    top: -10px; 
+    width: 93%; 
+    transition: bottom 0.3s; 
+}
+p {
+    color: white;
+    margin-left:70%;
+}
+.img3 {
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 135px;
+}
+.img4 {
+    margin-top: -200px;
+} 
+.img5 {
+    margin-left: 915px;
+    margin-top: -570px;
+}
+.img6 {
+    margin-left: 705px;
+    margin-top: -350px;
+} 
+.image1 {
+    margin-top: 400px
+}
+#p1 {
+    font-size: 60px;
+    margin-top: 70px;
+    color:#008000dc;
+}
+#p2 {
+    font-size: 60px;
+    margin-top: -75px;
+    margin-left: 590px;
+    color: #ff0000c9;
+}
+.pg1 {
+    margin-left: 300px;
+    font-family: Pacifico;
+}
+.pg2 {
+    font-family: Pacifico;
+    font-size: 45px;
+}
+#p3 {
+    margin-left: 470px;
+    color: #ff0000c9; 
+}
+#p4 {
+    margin-left: 583px;
+    margin-top: -35px;
+    color:#008000dc;
+}
+.input-1{
+    margin-left: 453px;
+}
+.row{
+    margin-left: 433px;
+}
+#email {
+    margin-left: 48px;
+}
+#estate {
+    margin-left: 48px;
+}
+#door {
+    margin-left: 48px;
+}
+.B {
+    margin-left: 433px;
+}
+#anotherorder {
+    margin-left: 88px;
+    background-color:#ff0000c9;
+    color:white;
+    font-family: Pacifico;
+}
+#delivery {
+    margin-left: 860px;
+    background-color:#ff0000c9;
+    color:white;
+    font-family: Pacifico;
+    border: none;
+}
+#SBMT {
+    margin-top: -26px;
+    margin-left: 892px;
+    background-color:#ff0000c9;
+    color:white;
+    font-family: Pacifico;
+    border: none;
+}
+
+.input-2 {
+    margin-left: 252px;
+    color:#008000dc;
+}
+.pg3 {
+    margin-left:260px;
+    font-family: Pacifico;
+    font-size:25px;
+    color:#ff0000c9;
+}
+.addr {
+    display: none;
+}
+.addrss{
+    display:none;
+} 
+.last{
+    display:none; 
+ }
+.grand {
+    position: absolute;
+    width: 50%;
+    min-height: 60%; 
+    top: 197%;
+    left: 26%;
+    background-color: #dde3da;
+}
+.cntct{
+    justify-content: space-around; 
+}
+.totals {
+    text-align: center;
+}
+.close {
+    color: #ff0000c9;
+}
+.dismss {
+    background-color:#ff0000c9;
+    border: none;
+    color:white;
+}
+.pgr {
+    color:black;
+}
+.s1 {
+    color:#ff0000c9;
+}
