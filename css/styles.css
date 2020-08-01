@@ -1,7 +1,7 @@
-/* .jumbotron {
+.jumbotron {
     background-size: cover;
     background-color: #020202e0;
-} */
+}
 #img1 {
     float: left;
     margin-top: 0px;
@@ -52,11 +52,11 @@ p {
     font-size: 60px;
     margin-top: -75px;
     margin-left: 590px;
-    color: #ff0000c9;
+    color: yellow;
 }
 .pg1 {
     margin-left: 300px;
-    font-family: Pacifico;
+    font-family: sans-serif;
 }
 .pg2 {
     font-family: pacifico;
@@ -64,7 +64,7 @@ p {
 }
 #p3 {
     margin-left: 470px;
-    color: #ff0000c9; 
+    color: yellow; 
 }
 #p4 {
     margin-left: 583px;
@@ -91,13 +91,13 @@ p {
 }
 #anotherorder {
     margin-left: 88px;
-    background-color:#ff0000c9;
+    background-color:yellow;
     color:white;
     font-family: Pacifico;
 }
 #delivery {
     margin-left: 860px;
-    background-color:#ff0000c9;
+    background-color:yellow;
     color:white;
     font-family: Pacifico;
     border: none;
@@ -105,7 +105,7 @@ p {
 #SBMT {
     margin-top: -26px;
     margin-left: 892px;
-    background-color:#ff0000c9;
+    background-color:yellow;
     color:white;
     font-family: Pacifico;
     border: none;
@@ -119,7 +119,7 @@ p {
     margin-left:260px;
     font-family: Pacifico;
     font-size:25px;
-    color:#ff0000c9;
+    color:yellow;
 }
 .addr {
     display: none;
@@ -145,10 +145,10 @@ p {
     text-align: center;
 }
 .close {
-    color: #ff0000c9;
+    color: yellow;
 }
 .dismss {
-    background-color:#ff0000c9;
+    background-color:yellow;
     border: none;
     color:white;
 }
@@ -156,5 +156,5 @@ p {
     color:black;
 }
 .s1 {
-    color:#ff0000c9;
+    color:yellow;
 }
