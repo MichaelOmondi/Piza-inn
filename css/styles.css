@@ -113,13 +113,13 @@ p {
 
 .input-2 {
     margin-left: 252px;
-    color:#008000dc;
+    color: yellow;
 }
 .pg3 {
     margin-left:260px;
     font-family: Pacifico;
     font-size:25px;
-    color:yellow;
+    color:red;
 }
 .addr {
     display: none;
@@ -145,10 +145,10 @@ p {
     text-align: center;
 }
 .close {
-    color: yellow;
+    color: red;
 }
 .dismss {
-    background-color:yellow;
+    background-color:red;
     border: none;
     color:white;
 }
@@ -156,5 +156,5 @@ p {
     color:black;
 }
 .s1 {
-    color:yellow;
+    color: red;
 }
