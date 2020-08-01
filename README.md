@@ -15,4 +15,4 @@ Bootstrap
 Reach me via e-mail- momonimike11@gmail.com
 
 ### License
-https://opensource.org/licenses/MIT
+MIT copyright license Copyright (c) 2020 Michael Omondi
