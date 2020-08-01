@@ -7,6 +7,7 @@
     margin-top: 0px;
     width: 150px;
     height: 150px;
+    background-size: cover;
 
 }
 #img2 {
@@ -25,15 +26,16 @@ p {
     color: white;
     margin-left:70%;
 }
-.img3 {
+/* .img3 {
     position: absolute;
     margin-top: -600px;
     margin-left: 135px;
-}
+} */
 .img4 {
     margin-top: -200px;
-} 
-.img5 {
+    float: initial;
+    
+} .img5 {
     margin-left: 915px;
     margin-top: -570px;
 }
@@ -41,6 +43,14 @@ p {
     margin-left: 705px;
     margin-top: -350px;
 } 
+/* .img5 {
+    margin-left: 915px;
+    margin-top: -570px;
+}
+.img6 {
+    margin-left: 705px;
+    margin-top: -350px;
+}  */
 .image1 {
     margin-top: 400px
 }
