@@ -3,9 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizaa-Inn</title>
 </head>
 <body>
+    <body>
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <div id="navbar">
+                    <a href="#default" id="logo1"><img id="img1" src="img/juice.jpeg"></a>
+                    <div id="navbar-right">
+                        <a href="#default" id="logo2"><img id="img2" src="img/oranges.jpeg"></a>
+                    </div>
+                </div>
+                <div class="bg1">
+                    <p class="pg1" id="p1"><strong>Welcome to</strong></p>
+                    <p class="pg1" id="p2"><strong> Piza-inn</strong></p>
+                    <div class="image1".>
+                        <img class="img4" src="img/pizza2.jpeg">
+                    </div>
+                </div>
+                <p class="pg2" id="p3">Order Your Piza</p>
+                <p class="pg2" id="p4">Today!!</p>
+                <section class="container">
+                    <div class="sec">
+                            <form id="new-order" action="" method="" accept-charset="utf-8">
+                                <!--size selection -->
+                                <div class="input-1">
+                                    <label class="s1">Choose Your Faourable Size</label>
+                                    <select class="c-select" id="IG1" required>
+                                        <option>Choose your Size</option>
+                                        <option value="Small, 550">Small-Ksh.550</option>
+                                        <option value="Medium, 650">Medium-Ksh.650</option>
+                                        <option value="Large, 850">Large-Ksh.850</option>
+                                    </select>
+                                </div><br>
+        
+                                <!-- fields for crusts -->
+                                <div class="input-1">
+                                    <label class="s1">Choose Your Favourable Crust</label>
+                                    <select class="c-select" id="IG2" required>
+                                        <option>Choose Crust</option>
+                                        <option value="Jules style thin crispy, 150">Jules style thin crispy crust-Ksh.150</option>
+                                        <option value="La Mia style thin crispy crust, 150">La Mia style thin crispy crust-Ksh.150</option>
+                                        <option value="New York style thin crispy crust, 150">New York style thin crispy crust-Ksh.150</option>
+                                        <option value="Sicilian stuffed crust, 150">Sicilian stuffed crust-Ksh.150</option>
+                                        <option value="Greek style stuffed crust, 150">Greek style stuffed crust-Ksh.150</option>
+                                        <option value="Chicago style stuffed crust, 150">Chicago style stuffed crust-Ksh.150</option>
+                                        <option value="Gluten-free crust, 150">Gluten-free crust-Ksh.150</option>
+                                    </select>
+                                </div>
+        
+                                <!-- fields for Toppings -->
+                                <div class="input-2">
+                                        <p>
+                                            <h1 class="pg3">Topping(s)</h1>
+                                        </p>
+                                        <input type="checkbox" name="topping" value="Spinach, 90">Spinach-Ksh.90</input>
+                                        <input type="checkbox" name="topping" value="Onions, 90">Onions-Ksh.90</input>
+                                        <input type="checkbox" name="topping" value="Red & green peppers, 90">Red & green peppers-Ksh.90</input>
+                                        <input type="checkbox" name="topping" value="Jalapeno, 90">Jalapeno-Ksh.90</input>
+                                        <input type="checkbox" name="topping" value="Bacon, 90">Bacon-Ksh.90</input>
+                                        <input type="checkbox" name="topping" value="Ham, 90">Ham-Ksh.90</input>
+                                        <input type="checkbox" name="topping" value="Beef, 90">Beef-Ksh.90</input>
+                                        <input type="checkbox" name="topping" value="Chicken, 90">Chicken-Ksh.90</input>
+                                    </div><br>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" aria-describedby="" placeholder="Name.." required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="email" aria-describedby="" placeholder="Email.">
+                                    </div>
+                                </div>
+                                <button type="button" id="delivery">Request for a Delivery</button><br><br>
+                                <!-- Input fields for address -->
+                                <div class="addr">
+                                    <div class="row" id="address">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="area" aria-describedby="" placeholder="Area Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="estate" aria-describedby="" placeholder="Estate Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="apartment" aria-describedby="" placeholder=" Apartment No">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="door" aria-describedby="" placeholder="Door No">
+                                        </div>
+                                    </div>
+                                </div><br>
+                                <button type="submit" id="SBMT" data-toggle="modal" data-target="#exampleModalCenter">SUBMIT</button>
+    
+                            </form>
+                    </div>
+                </section>
+                <section>
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog-centered" role="document">
+                            <div class="modal-content modal-dialog">
+                                <div class="modal-header" style="text-align: center;">
+                                    <h5 class="modal-title" id="ModalCenterTitle">This is Your Order</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="cntct">
+                                        <strong>NAME:</strong>&nbsp;<spn id="new-name"></spn>&nbsp;&nbsp;
+                                        <strong>Email:</strong>&nbsp;<span id="new-email"></span>
+                                    </div>
+                                    <div class="ordr">
+                                        <strong>Size:</strong>&nbsp;<span id="new-size"></span><br>
+                                        <strong>Crust:</strong>&nbsp;<span id="new-crust"></span><br>
+                                        <strong>Topping(s):</strong>&nbsp;<ul id="new-topping"></ul>
+                                    </div>
+                                    <div class="addrss">
+                                        <strong>Area:</strong>&nbsp;<span id="new-area"></span><br>
+                                        <strong>Estate:</strong>&nbsp;<span id="new-estate"></span><br>
+                                        <strong>Apartment:</strong>&nbsp;<span id="new-apartment"></span><br>
+                                        <strong>Door No.:</strong>&nbsp;<span id="new-door"></span><br>
+        
+                                        <p class="pgr">+ KSh. 150 <em>(Delivery Fees)</em></p>
+                                        <p class="pgr">You will have your Piza in the next 30 mins</p>
+                                    </div>
+                                </div>
+                                <div class="totals">
+                                    <strong>Total Price: </strong><span id="total"></span>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="dismss" data-dismiss="modal">Close</button>
+                                    <button type="button" class="dismss" data-dismiss="modal">Checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script src="//code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+                <script src="js/scripts.js"></script>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+            </div>
+        </div>    
+    </body>
     
 </body>
 </html>
