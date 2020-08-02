@@ -8,7 +8,7 @@ window.onscroll = function() {scrollFunction()};
    }
  }
 
-// constructor for the order
+
 function Order(name,email,size,crust,toppings){
   this.Name = name;
   this.Email = email;
@@ -19,7 +19,6 @@ function Order(name,email,size,crust,toppings){
 
 };
 
-// constructor for the address
 function Address(area,estate,apartment,door){
   this.Area = area;
   this.Estate = estate;
@@ -33,7 +32,6 @@ $("#delivery").click(function(){
   $(".addrss").show();
 });
 
-//this is the form submission event
 $("form#new-order").submit(function(event) {
   event.preventDefault();
 
