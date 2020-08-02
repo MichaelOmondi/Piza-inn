@@ -35,7 +35,7 @@ $("#delivery").click(function(){
 $("form#new-order").submit(function(event) {
   event.preventDefault();
 
-  //this is the data from the form
+  
   var name = $("input#name").val();
   var email = $("input#email").val();
 
@@ -52,13 +52,10 @@ $("form#new-order").submit(function(event) {
   var door = $("input#door").val();
 
 
-  // this is the constructor for Order(name,phone,size,crust,toppings)
-
   var newOrder = new Order(name,email,size,crust,top);
   console.log(newOrder);
 
 
-  // this is the constructor for Address(street,estate,apartment,floor)
 
   var newAddress = new Address(area,estate,apartment,door);
   console.log(newAddress);
@@ -69,21 +66,18 @@ $("form#new-order").submit(function(event) {
 
   displayData(newOrder);
 
-  // this is the array for the orders
 
   var totalOrders = [];
   totalOrders.push(newOrder);
   console.log(totalOrders);
 
 
-  //  clicking submit will empty the fields
 
   resetFields();
 
 });
 
 
-// CALC function
 
 function billCalculation(newOrder){
   var sizePrice = parseInt(newOrder.Size.split(", ")[1]);
@@ -98,7 +92,6 @@ function billCalculation(newOrder){
 
   var toppingPrice = 0;
 
-  // for getting toppings
   for(var i = 0; i < topp.length; i++ ){
       var unitPrice = parseInt(topp[i].split(", ")[1]);
 
@@ -125,7 +118,6 @@ function billCalculation(newOrder){
   var price = sizePrice + crustPrice + toppingPrice + deliveryTag;
   console.log(price);
 
-  // this is the total after the CALC function
 
   $("#total").text(price);
 
@@ -133,7 +125,6 @@ function billCalculation(newOrder){
 
 
 
-//this is the function for displaying  data
 
 function displayData(newOrder){
   var name = newOrder.Name;
@@ -154,19 +145,15 @@ function displayData(newOrder){
       toppngs = topps.split(", ")[0];
       toppngsPrc = topps.split(", ")[1]; 
 
-      // this is the list of arrays
 
       $("ul#new-topping").append("<li><span class=''>" + toppngs + " " + " @KSh." + toppngsPrc + "</span></li>");
   });
-
-  // a display for the (name,email,size,crust)
 
   $("#new-name").text(name);
   $("#new-email").text(email);
   $("#new-size").text(sze + " @KSh." + szePrc);
   $("#new-crust").text(crst + " @KSh." + crstPrc);
 
-  //ths is for printing the address
 
 
   var ad = newOrder.Addresses;
@@ -177,7 +164,6 @@ function displayData(newOrder){
 
 }
 
-// for emptying the fields
 function resetFields(){
   $("input#name").val("");
   $("input#email").val("");
